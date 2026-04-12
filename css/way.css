@@ -865,3 +865,21 @@ li {
     margin-left: auto;
     margin-right: auto;
            }
+/* Reduce space before the counterfeit section */
+.counterfeit {
+    margin-top: 1rem !important;
+}
+
+/* Add space between the sequence section and the invitation */
+.sequence {
+    margin-bottom: 3rem !important;
+}
+
+/* Alternative: if the above doesn't target correctly, use these more specific selectors */
+section.sequence {
+    margin-bottom: 3rem !important;
+}
+
+section.counterfeit {
+    margin-top: 1rem !important;
+}
