@@ -714,13 +714,49 @@ li {
     text-align: center;
 }
 
-.invitation .button {
+.invitation-card {
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Footer already has text-align:center, but reinforce */
-.footer {
+/* Counterfeit section centering */
+.counterfeit {
     text-align: center;
-    width: 100%;
-   }
+}
+
+.counterfeit-intro {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--content-max-width);
+}
+
+.counterfeit-grid {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.counterfeit-practice {
+    text-align: left;  /* Keep text readable but centered block */
+    max-width: var(--content-max-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.counterfeit-link {
+    text-align: right;
+}
+
+/* Sequence section centering */
+.sequence {
+    text-align: center;
+}
+
+.sequence-box {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sequence-steps {
+    justify-content: center;
+}
