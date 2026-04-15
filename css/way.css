@@ -883,3 +883,31 @@ section.sequence {
 section.counterfeit {
     margin-top: 1rem !important;
 }
+
+/* Ensure card content is centered */
+.card {
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Fix process step number visibility */
+.process-step .step-number {
+    color: var(--bg-primary); /* dark text on amber background */
+    font-weight: 600;
+    background: var(--accent);
+}
+
+/* Adjust spacing after h3 in article sections */
+.article-section h3 {
+    margin-bottom: 1.5rem;
+}
+
+/* Optional: reduce gap above process block if too large */
+.article-section .process {
+    margin-top: 0.5rem;
+   }
