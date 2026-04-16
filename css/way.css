@@ -911,3 +911,54 @@ section.counterfeit {
 .article-section .process {
     margin-top: 0.5rem;
    }
+
+/* ==============================================
+   INSTALLATION PATH FIXES (BEGIN.HTML)
+   ============================================== */
+
+/* Ensure the installation path container is centered */
+.installation-path {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Path step number visibility and alignment */
+.path-step .step-number {
+    color: var(--bg-primary);      /* dark text on amber background */
+    background: var(--accent);
+    border-color: var(--accent);
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+/* Path step content text alignment */
+.path-step .step-content {
+    text-align: left;              /* keep body text readable */
+    flex: 1;
+}
+
+/* Center the heading inside path-step if desired */
+.path-step h4 {
+    text-align: left;
+    margin-bottom: 0.75rem;
+}
+
+/* Path connector arrow visibility */
+.path-connector::after {
+    color: var(--accent);
+    font-weight: 600;
+    background: var(--bg-primary);
+    padding: 0 1rem;
+}
+
+/* Reduce any excessive gap above the installation path */
+.article-section .installation-path {
+    margin-top: 0.5rem;
+}
+
+/* Ensure consistent spacing after the h3 preceding the installation path */
+.article-section h3 + .installation-path {
+    margin-top: 1rem;
+   }
