@@ -4,52 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice 2: Sensory Profile · My Operating System · The Way of Olem Diga</title>
-    <meta name="description" content="What environments drain me? What restores me?">
+    <meta name="description" content="What environments drain me? What restores me? Auditing light, sound, temperature, space.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="../../../css/way.css">
-    <link rel="icon" href="../../../favicon.png" type="image/png">
+    <link rel="stylesheet" href="../../css/way.css">
+    <link rel="icon" href="../../favicon.png" type="image/png">
 </head>
 <body>
-    <div class="progress"><div class="progress-fill" id="progressFill"></div></div>
-    <button class="sidenav-toggle" id="navToggle" aria-label="Open navigation"><i class="fas fa-compass"></i></button>
+
+    <div class="progress">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <button class="sidenav-toggle" id="navToggle" aria-label="Open navigation">
+        <i class="fas fa-compass"></i>
+    </button>
+
     <div class="container">
+
         <aside class="sidenav" id="sidenav">
-            <div class="sidenav-header"><h1>The Way of Olem Diga</h1><p class="sidenav-subtitle">Finding my path.<br>Walking it well.</p></div>
+            <div class="sidenav-header">
+                <h1>The Way of Olem Diga</h1>
+                <p class="sidenav-subtitle">Finding my path.<br>Walking it well.</p>
+            </div>
+
             <ul class="nav-links">
-                <li><a href="../../../index.html">Home</a></li><li><a href="../../../begin.html">Why This Exists</a></li>
-                <li class="nav-category">Ⅰ · Foundation</li><li><a href="../../01-operating-system.html">01. My Operating System</a></li><li><a href="../../02-physical-environment.html">02. My Physical Environment</a></li><li><a href="../../03-internal-resources.html">03. My Internal Resources</a></li>
-                <li class="nav-category">· Threshold ·</li><li><a href="../../../threshold/foundation-check.html">Foundation Check</a></li>
-                <li class="nav-category">Ⅱ · Depth</li><li><a href="../../../depth/01-shadow-inventory.html">04. The Shadow Inventory</a></li><li><a href="../../../depth/02-pressure-and-resilience.html">05. Pressure and Resilience</a></li><li><a href="../../../depth/03-ripple-map.html">06. The Ripple Map</a></li>
-                <li class="nav-category">· Threshold ·</li><li><a href="../../../threshold/depth-check.html">Depth Check</a></li>
-                <li class="nav-category">Ⅲ · Construction</li><li><a href="../../../construction/01-exploration-and-focus.html">07. Exploration and Focus</a></li><li><a href="../../../construction/02-deep-work.html">08. Deep Work</a></li><li><a href="../../../construction/03-sustainable-systems.html">09. Sustainable Systems</a></li>
-                <li class="nav-category">· Threshold ·</li><li><a href="../../../threshold/construction-check.html">Construction Check</a></li>
-                <li class="nav-category">Ⅳ · Legacy</li><li><a href="../../../legacy/01-moving-through-the-world.html">10. Moving Through the World</a></li><li><a href="../../../legacy/02-relationships-and-repair.html">11. Relationships and Repair</a></li><li><a href="../../../legacy/03-what-remains.html">12. What Remains</a></li>
-                <li class="nav-category">· Threshold ·</li><li><a href="../../../threshold/legacy-check.html">Legacy Check</a></li>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../begin.html">Why This Exists</a></li>
+                
+                <li class="nav-category">Ⅰ · Foundation</li>
+                <li><a href="../01-operating-system.html">01. My Operating System</a></li>
+                <li><a href="../02-physical-environment.html">02. My Physical Environment</a></li>
+                <li><a href="../03-internal-resources.html">03. My Internal Resources</a></li>
+                
+                <li class="nav-category">· Threshold ·</li>
+                <li><a href="../../threshold/foundation-check.html">Foundation Check</a></li>
+                
+                <li class="nav-category">Ⅱ · Depth</li>
+                <li><a href="../../depth/01-shadow-inventory.html">04. The Shadow Inventory</a></li>
+                <li><a href="../../depth/02-pressure-and-resilience.html">05. Pressure and Resilience</a></li>
+                <li><a href="../../depth/03-ripple-map.html">06. The Ripple Map</a></li>
+                
+                <li class="nav-category">· Threshold ·</li>
+                <li><a href="../../threshold/depth-check.html">Depth Check</a></li>
+                
+                <li class="nav-category">Ⅲ · Construction</li>
+                <li><a href="../../construction/01-exploration-and-focus.html">07. Exploration and Focus</a></li>
+                <li><a href="../../construction/02-deep-work.html">08. Deep Work</a></li>
+                <li><a href="../../construction/03-sustainable-systems.html">09. Sustainable Systems</a></li>
+                
+                <li class="nav-category">· Threshold ·</li>
+                <li><a href="../../threshold/construction-check.html">Construction Check</a></li>
+                
+                <li class="nav-category">Ⅳ · Legacy</li>
+                <li><a href="../../legacy/01-moving-through-the-world.html">10. Moving Through the World</a></li>
+                <li><a href="../../legacy/02-relationships-and-repair.html">11. Relationships and Repair</a></li>
+                <li><a href="../../legacy/03-what-remains.html">12. What Remains</a></li>
+                
+                <li class="nav-category">· Threshold ·</li>
+                <li><a href="../../threshold/legacy-check.html">Legacy Check</a></li>
             </ul>
         </aside>
+
         <main class="main">
-            <section class="hero"><div class="hero-content"><p class="hero-eyebrow">Practice 2 of 6</p><h1 class="hero-title">Sensory Profile</h1><p class="hero-line">What environments drain me? What restores me?</p></div></section>
+
+            <section class="hero">
+                <div class="hero-content">
+                    <p class="hero-eyebrow">Practice 2 of 6</p>
+                    <h1 class="hero-title">Sensory Profile</h1>
+                    <p class="hero-line">What environments drain me? What restores me?</p>
+                </div>
+            </section>
+
             <article class="content-section">
-                <div class="article-section"><h3>Why This Matters</h3><p>I do not process sensory information the way most people do. My nervous system has a narrower bandwidth for certain inputs—fluorescent lighting, overlapping conversations, unpredictable sounds—and a higher sensitivity to others. This is not a preference. It is a physiological reality. When I ignore it, I accumulate sensory debt that compounds silently until I crash. When I understand it, I can design environments that support function rather than fight it.</p><p>Most advice about productivity and focus assumes a neurotypical sensory baseline. It assumes open-plan offices are fine, that background noise is neutral, that bright overhead lighting is normal. For me, these are active drains. They consume cognitive resources that should be available for thinking. Mapping my sensory profile is not about being precious or difficult. It is about protecting the limited battery I have.</p></div>
+
+                <div class="article-section">
+                    <h3>Why This Matters</h3>
+                    <p>My nervous system does not process sensory input the way most people's does. I have a narrower bandwidth for environmental stimuli, and my filter is less effective at screening out the irrelevant. Fluorescent lights hum at a frequency I cannot consciously hear but my body registers as exhaustion. Open-plan noise fragments my attention into useless shards. A room that is slightly too warm makes thought viscous and slow. These are not preferences. They are operating parameters.</p>
+                    <p>Most people can function adequately in a wide range of sensory conditions. They can tune out the background. They can recover quickly from an unexpected loud noise. I cannot. When I ignore my sensory profile, I accumulate a debt that compounds hourly. I leave a social event not just tired but hollowed out. I finish a work session not satisfied but frayed. The cost is invisible to others and often invisible to me until the crash comes. Mapping my sensory profile is not about creating a fragile bubble. It is about knowing the exact conditions under which I can operate, so I can arrange them when it matters and protect myself when I cannot.</p>
+                </div>
+
                 <div class="simple-divider"></div>
-                <div class="article-section"><h3>The Five Sensory Domains</h3>
-                    <h4>Light</h4><p>Fluorescent lighting is a known drain for many autistic nervous systems. The imperceptible flicker, the cold color temperature, the uniform brightness—all of it signals "alert" to a system that already struggles to down-regulate. Overhead "big lights" are particularly hostile. What works: single-source, dimmable, warm-toned light (amber, not blue). Natural light when available, but not direct glare. The goal is to create a cave, not an operating room.</p>
-                    <h4>Sound</h4><p>Unpredictable sound is the enemy. Conversations I can't control, sudden loud noises, construction, traffic—these trigger a startle response that takes minutes to settle. Even music with lyrics can compete for the language-processing parts of my brain. What works: instrumental loops, ambient soundscapes (rain, brown noise), or complete silence. Noise-canceling headphones are not a luxury; they are a prosthetic.</p>
-                    <h4>Temperature and Air</h4><p>I am more sensitive to temperature than I usually notice until I'm uncomfortable. Too warm and I become sluggish and irritable. Too cold and I tense up. Slightly cool, with moving air, is optimal. It keeps the body alert without demanding attention.</p>
-                    <h4>Spatial Density</h4><p>Open spaces with many people create a diffuse, unmanageable sensory load. I cannot filter out the movement, the conversations, the visual clutter. Enclosed, defined spaces—a room with a door, a corner with my back to the wall—provide containment. The nervous system can relax when the perimeter is known.</p>
-                    <h4>Predictability</h4><p>Novel environments are more draining than familiar ones, even if the sensory profile is objectively similar. Knowing where the exits are, what sounds to expect, and how long I will be there reduces the cognitive overhead of vigilance. Routine is not boring; it is efficient.</p></div>
+
+                <div class="article-section">
+                    <h3>The Five Dimensions</h3>
+                    
+                    <h4>Light</h4>
+                    <p>Fluorescent overhead lighting is cognitive poison. It flickers at a frequency that triggers fatigue, headaches, and a diffuse sense of unease. Natural light is ideal but unpredictable. Single-source, dimmable, warm-toned light (amber, not blue) is the most reliable. I need to be able to control brightness and eliminate glare. In environments I cannot control, I need countermeasures: a hat brim, glasses with a slight tint, positioning myself with my back to the light source.</p>
+                    
+                    <h4>Sound</h4>
+                    <p>My auditory system does not habituate. Every conversation within earshot registers as information to process. Open-plan offices, cafes, and crowded spaces drain me not because I am antisocial but because my brain is trying to parse every voice, every clatter, every unpredictable noise. I require either silence or a single, predictable sound source (instrumental music, ambient noise, a fan). Noise-canceling headphones are not a luxury. They are prosthetic focus.</p>
+                    
+                    <h4>Temperature and Air</h4>
+                    <p>Heat makes thinking viscous. I need cool air, preferably moving. A room that is slightly too warm will slow my cognition before I consciously notice the temperature. Stagnant air has a similar effect. A fan, an open window, or a space with good circulation makes a disproportionate difference.</p>
+                    
+                    <h4>Spatial Density</h4>
+                    <p>I function best in enclosed, contained spaces. Open spaces with people moving unpredictably in my peripheral vision drain me. I need a sense of enclosure, a defined boundary between me and the world. This is why I gravitate toward corners, booths, and rooms with doors. When I must be in open spaces, I need to position myself against a wall, facing the room, to minimize unexpected visual input.</p>
+                    
+                    <h4>Predictability</h4>
+                    <p>Unexpected sensory events (a door slamming, a phone ringing, someone suddenly addressing me) are disproportionately costly. They break flow and require a full cognitive reset. I need environments where I can anticipate what will happen. Routine and sameness are not boring; they are bandwidth conservation.</p>
+                </div>
+
                 <div class="simple-divider"></div>
-                <div class="article-section"><h3>The Protocol</h3><ol><li><strong>Audit my current primary environment.</strong> Where do I spend most of my waking hours? Assess it against the five domains. What is the light source? The soundscape? The temperature? The spatial containment? The predictability? Write down what works and what doesn't.</li><li><strong>Identify my top three drains.</strong> Not everything can be fixed at once. What are the three sensory factors that most reliably correlate with fatigue, irritability, or shutdown? Fluorescent lights? Unexpected noise? Visual clutter?</li><li><strong>Implement one change this week.</strong> Change a lightbulb. Get noise-canceling headphones. Clear off the desk. Small, concrete, verifiable. Notice the difference.</li><li><strong>Create a sensory reset kit.</strong> Assemble in one accessible place: noise-canceling headphones, a specific scent (essential oil, lotion), a textured object, a weighted item, sunglasses. When overstimulated, deploy without hesitation.</li><li><strong>Map new environments before entering.</strong> Before going somewhere unfamiliar, ask: What is the lighting likely to be? The noise level? Can I sit near an exit? How long will I stay? Having a mental map reduces the vigilance cost.</li></ol></div>
+
+                <div class="article-section">
+                    <h3>The Protocol</h3>
+                    <ol>
+                        <li><strong>Audit my current spaces.</strong> For each space I regularly inhabit (home workspace, bedroom, common areas), note the conditions along all five dimensions. What works? What drains me? Be specific: "The overhead light in the kitchen" rather than "the lighting."</li>
+                        <li><strong>Identify my non-negotiables.</strong> Which dimensions are hardest to compensate for? For me, light and sound are usually the most critical. Determine the one or two dimensions that, if wrong, make function impossible regardless of other conditions.</li>
+                        <li><strong>Create a portable sensory kit.</strong> Assemble items that can improve conditions in uncontrolled environments: noise-canceling headphones, a small fan, a hat or visor, tinted glasses, a familiar textured object. Keep this kit accessible.</li>
+                        <li><strong>Develop environment scripts.</strong> When entering a new space, I need a rapid assessment protocol: "Where is the light source? What is the soundscape? Where can I sit to minimize peripheral movement?" Practice this until it becomes automatic.</li>
+                    </ol>
+                </div>
+
                 <div class="simple-divider"></div>
-                <div class="article-section"><h3>The Deeper Layer</h3><p>Sensory sensitivity is often framed as a weakness—something to toughen up against. This is a mistake. The sensitivity is not going away. What can change is my relationship to it: from reactive to proactive. Instead of enduring a hostile environment until I break, I can design the environment to support me from the start.</p><p>There is also a social dimension. Asking for accommodations—dimmed lights, a quiet space, a break—can feel like admitting weakness. But the alternative is performing "normal" until I crash, which is more visible and more costly. Learning to state my needs neutrally ("I focus better with less light") is a skill. It is not an apology.</p><p>Finally, sensory needs fluctuate. A sound level that is fine at 9 a.m. may be unbearable at 4 p.m. The protocol is not a one-time fix. It is a practice of ongoing calibration. Check in. Adjust. The goal is not a perfect environment. The goal is an environment that doesn't actively work against me.</p></div>
+
+                <div class="article-section">
+                    <h3>The Deeper Layer</h3>
+                    <p>Sensory sensitivity is not weakness. It is a different calibration. The same narrow bandwidth that makes me vulnerable to fluorescent lights also allows me to detect subtle patterns, inconsistencies, and details that others miss. My auditory sensitivity, when directed at a single source (a piece of music, a lecture, a conversation), allows depth of perception that broader-bandwidth listeners cannot access. The goal is not to eliminate sensitivity. It is to protect it from overload so it can be deployed intentionally.</p>
+                    <p>There is also a social dimension. Requesting sensory accommodations (dimmer lights, a quieter space, a different seat) can feel like drawing unwanted attention. It can feel like being difficult. But the alternative, suffering in silence and then crashing later, is not sustainable. I need scripts for these requests that are neutral and non-apologetic: "I have a hard time focusing with overhead lights. Is it okay if I turn these off?" The request is about my needs, not a criticism of the environment.</p>
+                </div>
+
                 <div class="simple-divider"></div>
-                <div class="article-section"><h3>Reflection Questions</h3><ul><li>What sensory environment did I grow up in? How did it shape my baseline for "normal"?</li><li>When was the last time I noticed a physical sensation of relief upon entering a space? What made it feel safe?</li><li>What is the one sensory change I have been avoiding because it seems "too much" or "not necessary"? What would it actually cost to try it?</li><li>How do I communicate sensory needs to others? What script could I prepare?</li><li>What is in my current sensory reset kit? What is missing?</li></ul></div>
+
+                <div class="article-section">
+                    <h3>Reflection Questions</h3>
+                    <ul>
+                        <li>What environment has consistently drained me without me realizing why? (Think of a specific place: a particular cafe, a relative's house, a classroom.)</li>
+                        <li>What environment has consistently felt restorative? What are its specific sensory qualities?</li>
+                        <li>Which of the five dimensions is my "canary in the coal mine", the first to signal overload?</li>
+                        <li>What is one small change I can make to my primary workspace this week to improve its sensory profile?</li>
+                        <li>What script can I prepare for requesting a sensory accommodation without over-explaining or apologizing?</li>
+                    </ul>
+                </div>
+
                 <div class="simple-divider"></div>
-                <div class="navigation"><a href="01-cognitive-architecture.html" class="nav-link-backward"><i class="fas fa-arrow-left"></i> Back to Cognitive Architecture</a><a href="03-executive-function.html" class="button button-primary nav-link-forward">Next: Executive Function Notes <i class="fas fa-arrow-right"></i></a></div>
+
+                <div class="navigation">
+                    <a href="01-cognitive-architecture.html" class="nav-link-backward">
+                        <i class="fas fa-arrow-left"></i>
+                        Back: Cognitive Architecture
+                    </a>
+                    <a href="03-executive-function.html" class="button button-primary nav-link-forward">
+                        Next: Executive Function Notes
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
             </article>
-            <footer class="footer"><p>The Way of Olem Diga · 2026</p><p class="footer-credit">Finding my path. Walking it well. Resting when needed. Leaving something that matters.</p></footer>
+
+            <footer class="footer">
+                <p>The Way of Olem Diga · 2026</p>
+                <p class="footer-credit">Finding my path. Walking it well. Resting when needed. Leaving something that matters.</p>
+            </footer>
         </main>
     </div>
-    <script src="../../../js/script.js"></script>
+
+    <script src="../../js/script.js"></script>
 </body>
-</html>
+ </html>
