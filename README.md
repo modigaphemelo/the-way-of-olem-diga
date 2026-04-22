@@ -69,7 +69,7 @@ This repository contains personal writing and is not intended for redistribution
 
 ## Live Site
 
-[modigaphemelo.github.io/the-way-of-olem-diga](https://modigaphemelo.github.io/the-way-of-olem-diga/)
+[modigaphemelo.github.io/the-way-of-olem-diga](https://olemdiga.github.io/the-way-of-olem-diga/)
 
 ---
 
