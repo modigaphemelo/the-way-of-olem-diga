@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 2: Map the Delayed Ripples · The Ripple Map · The Way of Olem Diga</title>
+    <meta name="description" content="What might surface in a year? Five years? Some consequences are slow and persistent.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../../css/way.css">
+    <link rel="icon" href="../../favicon.png" type="image/png">
+</head>
+<body>
+
+    <div class="progress">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <button class="sidenav-toggle" id="navToggle" aria-label="Open navigation">
+        <i class="fas fa-compass"></i>
+    </button>
+
+    <div class="container">
+
+        <aside class="sidenav" id="sidenav">
+            <div class="sidenav-header">
+                <h1>The Way of Olem Diga</h1>
+                <p class="sidenav-subtitle">Finding my path.<br>Walking it well.</p>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../begin.html">Why This Exists</a></li>
+                
+                <li class="nav-category">Ⅰ · Foundation</li>
+                <li><a href="../../foundation/01-operating-system.html">01. My Operating System</a></li>
+                <li><a href="../../foundation/02-physical-environment.html">02. My Physical Environment</a></li>
+                <li><a href="../../foundation/03-internal-resources.html">03. My Internal Resources</a></li>
+                
+                <li class="nav-category">· Threshold ·</li>
+                <li><a href="../../threshold/foundation-check.html">Foundation Check</a></li>
+                
+                <li class="nav-category">Ⅱ · Depth</li>
+                <li><a href="../01-shadow-inventory.html">04. The Shadow Inventory</a></li>
+                <li><a href="../02-pressure-and-resilience.html">05. Pressure and Resilience</a></li>
+                <li><a href="../03-ripple-map.html">06. The Ripple Map</a></li>
+                
+                <li class="nav-category">· Threshold ·</li>
+                <li><a href="../../threshold/depth-check.html">Depth Check</a></li>
+                
+                <li class="nav-category">Ⅲ · Construction</li>
+                <li><a href="../../construction/01-exploration-and-focus.html">07. Exploration and Focus</a></li>
+                <li><a href="../../construction/02-deep-work.html">08. Deep Work</a></li>
+                <li><a href="../../construction/03-sustainable-systems.html">09. Sustainable Systems</a></li>
+                
+                <li class="nav-category">· Threshold ·</li>
+                <li><a href="../../threshold/construction-check.html">Construction Check</a></li>
+                
+                <li class="nav-category">Ⅳ · Legacy</li>
+                <li><a href="../../legacy/01-moving-through-the-world.html">10. Moving Through the World</a></li>
+                <li><a href="../../legacy/02-relationships-and-repair.html">11. Relationships and Repair</a></li>
+                <li><a href="../../legacy/03-what-remains.html">12. What Remains</a></li>
+                
+                <li class="nav-category">· Threshold ·</li>
+                <li><a href="../../threshold/legacy-check.html">Legacy Check</a></li>
+            </ul>
+        </aside>
+
+        <main class="main">
+
+            <section class="hero">
+                <div class="hero-content">
+                    <p class="hero-eyebrow">Practice 2 of 6</p>
+                    <h1 class="hero-title">Map the Delayed Ripples</h1>
+                    <p class="hero-line">What might surface in a year? Five years?</p>
+                </div>
+            </section>
+
+            <article class="content-section">
+
+                <div class="article-section">
+                    <h3>Why This Matters</h3>
+                    <p>The immediate ripple is visible. I can see the person react. I can feel the energy shift. I can adjust. But some consequences do not arrive for months or years. They are slow ripples—quiet, persistent, and easy to ignore precisely because they are not urgent. The ASD/INTP mind, focused on the present model and the current task, is particularly vulnerable to this blind spot. I do not see the delayed ripple coming because it does not demand my attention. It simply accumulates, and then one day it arrives as a crisis that seems sudden but was actually years in the making.</p>
+                    <p>Mapping delayed ripples is not about paranoia. It is about extending the Ti model of consequences across time. The same systematic thinking that allows me to model a complex system in the present can be applied to the future. The variables are the same: the people affected, the patterns of cause and effect, the way small actions compound or fade. The difference is only the timescale. This practice is the deliberate extension of the ripple map into the medium and long term, so that I am not surprised by consequences that were always predictable if I had only looked.</p>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <div class="article-section">
+                    <h3>The Dimensions of Delayed Ripples</h3>
+                    
+                    <h4>Relational Drift</h4>
+                    <p>A pattern of small withdrawals, each justified in the moment, accumulates into a relationship that has quietly atrophied. I may not notice that I have been saying no to invitations for six months. I may not register that my responses have become shorter, less engaged, more functional. But the other person notices. They adjust. They stop reaching out. And one day I realize the connection is gone, and I cannot point to a single event that caused it. The delayed ripple of accumulated small actions is often more damaging than a single sharp break because it is invisible while it is happening. Repair, when it becomes necessary, is harder because the damage is diffuse and the other person has long since stopped expecting anything different.</p>
+                    
+                    <h4>Reputation Accumulation</h4>
+                    <p>My actions, over time, become my reputation. Not the reputation I intend or the reputation I believe I have, but the reputation that results from the sum of what I have actually done. A single missed deadline is forgiven. A pattern of missed deadlines becomes "unreliable." A single withdrawal is understood. A pattern becomes "cold" or "unavailable." Reputation is a delayed ripple that can close doors before I even know they existed. I am not being evaluated on my internal model of myself. I am being evaluated on the accumulated external evidence. Mapping this ripple means asking: "If I repeated this action consistently for a year, what would people conclude about me?"</p>
+                    
+                    <h4>Health and Capacity Debt</h4>
+                    <p>The body keeps score. The sensory overload I pushed through, the sleep I sacrificed, the recovery I skipped—none of these are free. The cost is deferred, not eliminated. A pattern of exceeding my energetic limits for months or years will eventually manifest as chronic fatigue, burnout, or illness. The delayed ripple of capacity debt is perhaps the most predictable and most ignored consequence. I can model it precisely: if my daily energy budget is X and I consistently spend X+2, the deficit compounds. The crash is not a surprise. It is arithmetic.</p>
+                    
+                    <h4>Missed Opportunities From Present Choices</h4>
+                    <p>Every commitment made is a commitment to a specific future. Choosing to develop one skill means not developing others. Choosing to invest time in one relationship means less time for others. These trade-offs are invisible in the moment because the alternative futures are hypothetical. They do not exist yet. But they will become real. In five years, I will be someone who spent those years on specific things and not on others. The delayed ripple of present choices is the future self I am building, whether I am conscious of it or not.</p>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <div class="article-section">
+                    <h3>The Protocol</h3>
+                    <ol>
+                        <li><strong>Identify a current pattern.</strong> Choose one significant action or pattern in my life right now. It could be a work habit, a relational pattern, a health practice, or a commitment I have made or avoided.</li>
+                        <li><strong>Project it forward one year, three years, and five years.</strong> If I continue this pattern unchanged, what will be the state of my relationships, my health, my reputation, and my skills at each of those time points? Be specific. Do not soften the projection.</li>
+                        <li><strong>Identify the delayed costs I am currently deferring.</strong> What am I borrowing from the future? Energy debt? Relational neglect? Skill atrophy? Financial precarity? Name the debts explicitly.</li>
+                        <li><strong>Map the compounding effects.</strong> Some patterns compound positively (daily practice, consistent investment). Some compound negatively (neglect, avoidance, debt). For the chosen pattern, is the compounding positive or negative? At what rate?</li>
+                        <li><strong>Decide on one adjustment.</strong> Based on the projection, what is one small change I can make now that will alter the trajectory at the five-year point? The adjustment does not need to be large. Compounding makes small changes significant over time.</li>
+                        <li><strong>Set a review point.</strong> Choose a date, perhaps six months from now, to revisit this specific ripple projection. Did the pattern change? Did the adjustment hold? The review closes the loop and updates the model with real data.</li>
+                    </ol>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <div class="article-section">
+                    <h3>The Deeper Layer</h3>
+                    <p>Mapping delayed ripples can trigger the 5's anxiety about future uncertainty. The 5 wants to control outcomes through understanding, but the future cannot be controlled. The purpose of this practice is not to eliminate uncertainty. It is to reduce the blind spots. I cannot predict every consequence, but I can predict the consequences of my own repeated patterns. Those patterns are under my observation, and to some extent under my influence. The projection is not a prophecy. It is a model. Models can be updated.</p>
+                    <p>The 4 wing may resist this practice because it feels like a constraint on spontaneity and authenticity. "If I am always calculating future consequences, I cannot be fully present or authentic." This is a false opposition. Authenticity is not the absence of foresight. It is the alignment of action with values over time. A person who consistently harms their future self through impulsive present actions is not being authentic. They are being reckless. The delayed ripple map is a tool for ensuring that my present actions are aligned with the person I want to become, not just the person I feel like being in the moment.</p>
+                    <p>The ASD dimension adds a specific need for this practice. The processing lag means I often do not feel the emotional weight of a decision until long after it is made. Projecting the delayed ripple forward is a way of accessing that weight before the decision, not after. It is a cognitive simulation that compensates for the missing real-time emotional feedback. I cannot feel the future. But I can model it. The model is not perfect, but it is far better than making decisions with no consideration of the long arc at all.</p>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <div class="article-section">
+                    <h3>Reflection Questions</h3>
+                    <ul>
+                        <li>What pattern in my life, if continued unchanged for five years, would produce the most significant delayed consequences?</li>
+                        <li>What am I currently deferring that I know will eventually need to be addressed? What am I borrowing from the future?</li>
+                        <li>If I could send a message to my future self five years from now, what would I warn them about? What would I thank them for?</li>
+                        <li>What is one small adjustment that, compounded over time, would significantly alter my trajectory?</li>
+                    </ul>
+                </div>
+
+                <div class="simple-divider"></div>
+
+                <div class="navigation">
+                    <a href="01-immediate-ripples.html" class="nav-link-backward">
+                        <i class="fas fa-arrow-left"></i>
+                        Back: Map the Immediate Ripples
+                    </a>
+                    <a href="03-unseen-witnesses.html" class="button button-primary nav-link-forward">
+                        Next: Identify the Witnesses I Did Not See
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </article>
+
+            <footer class="footer">
+                <p>The Way of Olem Diga · 2026</p>
+                <p class="footer-credit">Finding my path. Walking it well. Resting when needed. Leaving something that matters.</p>
+            </footer>
+        </main>
+    </div>
+
+    <script src="../../js/script.js"></script>
+</body>
+</html>
